@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_ar_edu_um_oficios_domain_Cliente" modelAttribute="cliente" path="/clientes" render="${empty dependencies}" z="IIXVAyKbBQEol6xhvx9lZFAL9NY=">
+        <field:input field="email" id="c_ar_edu_um_oficios_domain_Cliente_email" validationMessageCode="field_invalid_email" z="PczO1eA5hohrg6Igcozd7QsspDI="/>
+        <field:input field="telefono" id="c_ar_edu_um_oficios_domain_Cliente_telefono" z="bi160XUWLpxTfBI2qbYt6itmoLc="/>
+        <field:input field="domicilio" id="c_ar_edu_um_oficios_domain_Cliente_domicilio" z="Bby+TteFMjrl72AD0QYegV5crqQ="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_ar_edu_um_oficios_domain_Cliente" render="${not empty dependencies}" z="8x6VsNxSKaVYo85hhOX45b4hQ4M="/>
+</div>

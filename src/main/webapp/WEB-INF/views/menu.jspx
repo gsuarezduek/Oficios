@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_oficio" z="Z/FlHjyJlkW2F1rhFCuVsdWXF9I=">
+            <menu:item id="i_oficio_new" messageCode="global_menu_new" url="/oficios?form" z="+hYavyQq3AycjaQBua7U7MLDYaU="/>
+            <menu:item id="i_oficio_list" messageCode="global_menu_list" url="/oficios?page=1&amp;size=${empty param.size ? 10 : param.size}" z="vZX4jzxDhMTyGibXjsd933Qb6VI="/>
+        </menu:category>
+        <menu:category id="c_domicilio" z="9Kv0zBq8wBFZL3R7DQJ9c4VTqSo=">
+            <menu:item id="i_domicilio_new" messageCode="global_menu_new" url="/domicilios?form" z="yLFo/3gnPwJoJgT3GoGFiD2bf0E="/>
+            <menu:item id="i_domicilio_list" messageCode="global_menu_list" url="/domicilios?page=1&amp;size=${empty param.size ? 10 : param.size}" z="mbVXPYopHcvB18aGLGKYUd91zDk="/>
+        </menu:category>
+        <menu:category id="c_clasificacion" z="1g9VWdvf29sgYCzNEJyTNzyUp5o=">
+            <menu:item id="i_clasificacion_new" messageCode="global_menu_new" url="/clasificacions?form" z="mfqe+TETcw4GgRSBUBgNNMwgZas="/>
+            <menu:item id="i_clasificacion_list" messageCode="global_menu_list" url="/clasificacions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="3cbGFtPyh+gUDeu5M0C2ZBzL60A="/>
+        </menu:category>
+        <menu:category id="c_cliente" z="OA12E4nwdOcMU0p7LaQV8KKBm5E=">
+            <menu:item id="i_cliente_new" messageCode="global_menu_new" url="/clientes?form" z="cDLtjRjIN5c0dyE1ltBb0Mk1DJo="/>
+            <menu:item id="i_cliente_list" messageCode="global_menu_list" url="/clientes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="lk2UTVTUA9lz30A2vJEbY3GbO6E="/>
+        </menu:category>
+        <menu:category id="c_historialdeservicio" z="pAk71p/mKRf8sQLKJQTEHSvNdqE=">
+            <menu:item id="i_historialdeservicio_new" messageCode="global_menu_new" url="/historialdeservicios?form" z="XWpp35bJfQzZkyh5FADA+xaEubY="/>
+            <menu:item id="i_historialdeservicio_list" messageCode="global_menu_list" url="/historialdeservicios?page=1&amp;size=${empty param.size ? 10 : param.size}" z="e0KGBjgFyV8dKCAvDMP3KxZ43nY="/>
+        </menu:category>
+        <menu:category id="c_prestador" z="km4B0Fr3wYzW8pdaVi+yZCR+0M0=">
+            <menu:item id="i_prestador_new" messageCode="global_menu_new" url="/prestadors?form" z="esgGnhLg4YrFQ08dzzDCh09+ezM="/>
+            <menu:item id="i_prestador_list" messageCode="global_menu_list" url="/prestadors?page=1&amp;size=${empty param.size ? 10 : param.size}" z="F0gTjUn7c59ZYnf8voRSDrFul6w="/>
+        </menu:category>
+        <menu:category id="c_serviciosdisponibles" z="ATLOZPz+rABJQaCy8Olr8ciVQsY=">
+            <menu:item id="i_serviciosdisponibles_new" messageCode="global_menu_new" url="/serviciosdisponibleses?form" z="RyEOBscfFw7e636+1nN5Yf6moLI="/>
+            <menu:item id="i_serviciosdisponibles_list" messageCode="global_menu_list" url="/serviciosdisponibleses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="krIcznZ4/oP7Fo97s+0jnsn4f40="/>
+        </menu:category>
+    </menu:menu>
+</div>

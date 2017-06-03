@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ar_edu_um_oficios_domain_Domicilio" modelAttribute="domicilio" path="/domicilios" versionField="Version" z="mFkT5iPM4JNs8BAzVGVBpRu/OeU=">
+        <field:input field="calle" id="c_ar_edu_um_oficios_domain_Domicilio_calle" z="QX/EHQfeADkcYI/2JkQTUCpOo+g="/>
+        <field:input field="numero" id="c_ar_edu_um_oficios_domain_Domicilio_numero" z="32b6Lt8mXZmxCSngU1UPQQVUbQg="/>
+        <field:input field="ciudad" id="c_ar_edu_um_oficios_domain_Domicilio_ciudad" z="UflbkGoZ3EHXT6CZSbRZiIUNd4w="/>
+    </form:update>
+</div>

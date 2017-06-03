@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="historialdeservicios/list">
+        <put-attribute name="body" value="/WEB-INF/views/historialdeservicios/list.jspx"/>
+    </definition>
+<definition extends="default" name="historialdeservicios/show">
+        <put-attribute name="body" value="/WEB-INF/views/historialdeservicios/show.jspx"/>
+    </definition>
+<definition extends="default" name="historialdeservicios/create">
+        <put-attribute name="body" value="/WEB-INF/views/historialdeservicios/create.jspx"/>
+    </definition>
+<definition extends="default" name="historialdeservicios/update">
+        <put-attribute name="body" value="/WEB-INF/views/historialdeservicios/update.jspx"/>
+    </definition>
+</tiles-definitions>

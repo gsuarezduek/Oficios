@@ -1,0 +1,48 @@
+<aspectj>
+<aspects>
+<aspect name="ar.edu.um.oficios.domain.Prestador_Roo_JavaBean"/>
+<aspect name="ar.edu.um.oficios.domain.Prestador_Roo_Jpa_ActiveRecord"/>
+<aspect name="ar.edu.um.oficios.domain.Domicilio_Roo_JavaBean"/>
+<aspect name="ar.edu.um.oficios.domain.HistorialDeServicio_Roo_ToString"/>
+<aspect name="ar.edu.um.oficios.domain.HistorialDeServicio_Roo_Configurable"/>
+<aspect name="ar.edu.um.oficios.domain.Oficio_Roo_Configurable"/>
+<aspect name="ar.edu.um.oficios.domain.Domicilio_Roo_Jpa_ActiveRecord"/>
+<aspect name="ar.edu.um.oficios.domain.Domicilio_Roo_Configurable"/>
+<aspect name="ar.edu.um.oficios.domain.HistorialDeServicio_Roo_Jpa_ActiveRecord"/>
+<aspect name="ar.edu.um.oficios.domain.Clasificacion_Roo_JavaBean"/>
+<aspect name="ar.edu.um.oficios.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="ar.edu.um.oficios.domain.HistorialDeServicio_Roo_Jpa_Entity"/>
+<aspect name="ar.edu.um.oficios.domain.ServiciosDisponibles_Roo_Configurable"/>
+<aspect name="ar.edu.um.oficios.web.PrestadorController_Roo_Controller"/>
+<aspect name="ar.edu.um.oficios.domain.Prestador_Roo_Configurable"/>
+<aspect name="ar.edu.um.oficios.domain.Prestador_Roo_ToString"/>
+<aspect name="ar.edu.um.oficios.domain.Domicilio_Roo_ToString"/>
+<aspect name="ar.edu.um.oficios.domain.Cliente_Roo_Jpa_Entity"/>
+<aspect name="ar.edu.um.oficios.domain.Cliente_Roo_Jpa_ActiveRecord"/>
+<aspect name="ar.edu.um.oficios.web.ServiciosDisponiblesController_Roo_Controller"/>
+<aspect name="ar.edu.um.oficios.web.HistorialDeServicioController_Roo_Controller"/>
+<aspect name="ar.edu.um.oficios.domain.Clasificacion_Roo_ToString"/>
+<aspect name="ar.edu.um.oficios.domain.Oficio_Roo_JavaBean"/>
+<aspect name="ar.edu.um.oficios.domain.Prestador_Roo_Jpa_Entity"/>
+<aspect name="ar.edu.um.oficios.web.ClienteController_Roo_Controller"/>
+<aspect name="ar.edu.um.oficios.domain.Clasificacion_Roo_Jpa_ActiveRecord"/>
+<aspect name="ar.edu.um.oficios.domain.Domicilio_Roo_Jpa_Entity"/>
+<aspect name="ar.edu.um.oficios.domain.Clasificacion_Roo_Configurable"/>
+<aspect name="ar.edu.um.oficios.domain.Cliente_Roo_ToString"/>
+<aspect name="ar.edu.um.oficios.domain.HistorialDeServicio_Roo_JavaBean"/>
+<aspect name="ar.edu.um.oficios.domain.ServiciosDisponibles_Roo_Jpa_Entity"/>
+<aspect name="ar.edu.um.oficios.domain.Oficio_Roo_ToString"/>
+<aspect name="ar.edu.um.oficios.domain.Cliente_Roo_Configurable"/>
+<aspect name="ar.edu.um.oficios.web.DomicilioController_Roo_Controller"/>
+<aspect name="ar.edu.um.oficios.domain.Cliente_Roo_JavaBean"/>
+<aspect name="ar.edu.um.oficios.domain.Oficio_Roo_Jpa_Entity"/>
+<aspect name="ar.edu.um.oficios.domain.Clasificacion_Roo_Jpa_Entity"/>
+<aspect name="ar.edu.um.oficios.domain.ServiciosDisponibles_Roo_ToString"/>
+<aspect name="ar.edu.um.oficios.domain.ServiciosDisponibles_Roo_JavaBean"/>
+<aspect name="ar.edu.um.oficios.domain.ServiciosDisponibles_Roo_Jpa_ActiveRecord"/>
+<aspect name="ar.edu.um.oficios.domain.Oficio_Roo_Jpa_ActiveRecord"/>
+<aspect name="ar.edu.um.oficios.web.OficioController_Roo_Controller"/>
+<aspect name="ar.edu.um.oficios.web.ClasificacionController_Roo_Controller"/>
+</aspects>
+</aspectj>
+
